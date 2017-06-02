@@ -14,7 +14,7 @@
 });
 - this指向当前对象，num是当前对象的属性需要加引号，设置的值固定为200
 - writable 判断是否能修改，默认为ture，false则无法修改
-### 关于c参数：
+### 关于第三个参数：
 - 是一个用于描述属性值得json数据.
 - 这个json数占领configurable，eumerable，writable，value构成
 - configurable:1.可否被删除，2.他的属性值可否被批改.3.可否把属性设置成接见器属性，默认是true，可以删除，，批改，设置
